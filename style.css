@@ -1,0 +1,63 @@
+.cover-page {
+    background-image: url('images/Bg-img.jpg');
+    /* width: 100%; */
+    margin: auto;
+    padding-bottom: 15%;
+}
+
+.banner {
+    /* color: var(--mainWhite); */
+    margin-top: 10rem;
+}
+
+.banner-title {
+    color: var(--mainPink);
+    font-size: 4rem;
+}
+
+.banner-link {
+    font-size: 1.5rem;
+    color: var(--mainBlack);
+    border: 0.2rem solid var(--mainBlack);
+}
+
+.banner-link:hover {
+    background: var(--mainBlack);
+    color: var(--mainPink);
+}
+
+
+/* About Section */
+
+.image-1 {
+    float: inherit;
+    width: 70%;
+}
+
+#about {
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+/* Store Section */
+
+#store {
+    text-align: center;
+}
+
+.selection {
+    margin-left: 30px !important;
+}
+
+.search {
+    margin-top: 15px;
+}
+
+
+/* Chart Section */
+
+
+/* .img-container {
+    margin-left: 30px !important;
+} */
