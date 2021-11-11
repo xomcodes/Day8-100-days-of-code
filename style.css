@@ -61,3 +61,38 @@
 /* .img-container {
     margin-left: 30px !important;
 } */
+
+
+/* Cart Section */
+
+.cart {
+    position: absolute;
+    min-height: 10rem;
+    background: var(--mainWhite);
+    top: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    width: 0;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.5)
+}
+
+.show-cart {
+    width: 18rem;
+    padding: 2rem 1.5rem;
+    transform: rotateY(-360deg);
+}
+
+.cart-item {
+    transition: all 2s ease-in-out;
+}
+
+.cart-item-remove {
+    color: var(--mainPink);
+    transition: all 1s ease-in-out;
+}
+
+.cart-item-remove {
+    color: var(--mainPink);
+    transition: all 1s ease-in-out;
+}

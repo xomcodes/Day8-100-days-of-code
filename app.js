@@ -98,6 +98,9 @@ buttons.forEach((button) => {
 
 })();
 
+
+
+
 // buttons.forEach(function(button){
 //     button.addEventListener('click', function(e){
 //         //prevent the default link jump to top of page
